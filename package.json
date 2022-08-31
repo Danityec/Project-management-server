@@ -1,0 +1,25 @@
+{
+  "name": "zigit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "install": "^0.13.0",
+    "mysql": "^2.18.1",
+    "package": "^1.0.1",
+    "request": "^2.88.2",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Danit Noa",
+  "license": "ISC"
+}
